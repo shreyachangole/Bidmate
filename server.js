@@ -2,8 +2,8 @@ const express = require("express");
 const dotenv = require("dotenv");
 const connectDB = require("./config/db");
 
-dotenv.config();       // Load .env
-connectDB();           // Connect to MongoDB
+dotenv.config();       
+connectDB();           
 
 const app = require("./app");
 
